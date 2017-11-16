@@ -1,10 +1,36 @@
+background-color: purple;
+
 body {
-  padding: 30px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 15px;
+  font-family: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+background-color: red;
+border: 5px;
+
+}
+
+h1 {
+font-family: "Old Standard TT", Arial, Tahoma, sans-serif;
+text-align= center;
+margin-left: 220px;
+font-weight: bold;
+justify-content: center;
+font-size: 35px;
+margin-top:0 px;
+height: 40px;
+ }
+
+}
+
+h1 {
+align="center";
+    font-family: "Old Standard TT", Arial, Tahoma, sans-serif;
 }
 
 h2 {
+	font-size: 30px;
 	margin:0 0 .5em 0;
+	 font-family: "Old Standard TT", Arial, Tahoma, sans-serif;
+	font-weight: normal;
 }
 
 a {
@@ -34,6 +60,7 @@ a {
 			padding:0; margin:0;
 			border-collapse:collapse;
 			border-spacing:0px;
+			font-family:"Old Standard TT", Arial, Tahoma, sans-serif;
 		}
 			#userList table td {
 				background:#FFF;
@@ -50,9 +77,30 @@ a {
 		padding:15px;
 		border:1px solid #CCC;
 		background:rgba(80,120,255,0.05);
+		font-family: "Old Standard TT", Arial, Tahoma, sans-serif;
+		font-weight: normal;
 	}
 
+#addUser fieldset {
+
+}
+
+	#btnAddUser {
+	background-color: lightblue; /* Green */
+   	border: none;
+   	color: white;
+   	padding: 10px 22px;
+    	text-align: center;
+    	text-decoration: none;
+   	display: inline-block;
+   	font-size: 16px;
+
+
+	}
 fieldset {
 	border:0;
 	padding:0; margin:0;
+}
+input {
+font-size: 20px;
 }
